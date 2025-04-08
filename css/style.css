@@ -59,31 +59,31 @@ a:hover {
 /* =============== LINKEDIN & FOOTER =============== */
 footer {
   background-color: #1c1c1c;
-  color: white;
+  padding: 2em 1em 1em;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
   text-align: center;
-  padding: 1.5em 1em 0.5em;
-  font-size: 0.9em;
 }
 
 footer .socials {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 footer .socials a {
   display: inline-block;
+  margin: 0 12px;
   color: #ff4b5c;
-  margin: 0 15px;
-  font-size: 1.5em;
+  font-size: 1.6em;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 footer .socials a:hover {
+  transform: scale(1.3);
   color: #ffffff;
-  transform: scale(1.2);
 }
 
 footer .email {
-  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   font-size: 1em;
   color: #ccc;
 }
@@ -92,6 +92,12 @@ footer .email i {
   margin-right: 8px;
   color: #ff4b5c;
 }
+
+footer p {
+  font-size: 0.9em;
+  color: #aaa;
+}
+
 
 
 /* =============== PROJECT CARD =============== */
