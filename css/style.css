@@ -86,3 +86,35 @@ footer {
     list-style: disc;
     margin-bottom: 6px;
 }
+/* === Animation d’apparition pour la frise === */
+.timeline-content {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s forwards;
+}
+
+.timeline-item:nth-child(1) .timeline-content { animation-delay: 0.1s; }
+.timeline-item:nth-child(2) .timeline-content { animation-delay: 0.3s; }
+.timeline-item:nth-child(3) .timeline-content { animation-delay: 0.5s; }
+.timeline-item:nth-child(4) .timeline-content { animation-delay: 0.7s; }
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* === Effet hover pour dynamiser chaque étape === */
+.timeline-item:hover .timeline-content {
+    background-color: #dfeeff;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+/* === Couleurs personnalisées par niveau === */
+.timeline-item:nth-child(1) .timeline-content { border-left: 5px solid #9b59b6; }
+.timeline-item:nth-child(2) .timeline-content { border-left: 5px solid #e67e22; }
+.timeline-item:nth-child(3) .timeline-content { border-left: 5px solid #2980b9; }
+.timeline-item:nth-child(4) .timeline-content { border-left: 5px solid #27ae60; }
+
