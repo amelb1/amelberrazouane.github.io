@@ -1,31 +1,109 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Amel Berrazouane - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0f0f0f;
+      color: white;
+    }
+    nav {
+      background-color: #1c1c1c;
+      padding: 1em 2em;
+      display: flex;
+      justify-content: flex-end;
+      gap: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #ff4a57;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4em 10%;
+      background: url('../img/bg-particles.png') no-repeat center center;
+      background-size: cover;
+      min-height: 90vh;
+    }
+    .hero-text {
+      max-width: 60%;
+    }
+    .hero-text h1 {
+      font-size: 3em;
+      color: #ffffff;
+    }
+    .hero-text h1 span {
+      color: #ff4a57;
+    }
+    .hero-text p {
+      font-size: 1.1em;
+      color: #bbbbbb;
+      line-height: 1.6;
+      margin-top: 1em;
+    }
+    .hero-buttons {
+      margin-top: 2em;
+    }
+    .hero-buttons a {
+      display: inline-block;
+      margin-right: 15px;
+      padding: 0.8em 1.5em;
+      background-color: #ff4a57;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .hero-buttons a:hover {
+      background-color: #e63b49;
+    }
+    .hero img {
+      border-radius: 10px;
+      max-height: 500px;
+      width: auto;
+      box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    }
+    footer {
+      text-align: center;
+      padding: 1em;
+      background-color: #1c1c1c;
+      color: white;
+    }
+  </style>
 </head>
-
 <body>
-
-
-<nav>
+  <nav>
     <a href="index.html">Accueil</a>
     <a href="projets.html">Projets</a>
     <a href="parcours.html">Parcours</a>
     <a href="contact.html">Contact</a>
-</nav>
+  </nav>
 
-<div class="container">
-    <h2>Bienvenue !</h2>
-    <p>Étudiante en Master 2 MIAGE à l’Université Paris Nanterre, parcours Systèmes d’Information Fiables et Intelligence des Données, j’ai acquis une solide expérience en alternance sur des projets mêlant data, automatisation et qualité logicielle.</p>
-    <p>J’ai notamment conçu et mis en production un modèle de machine learning pour l’assignation automatique d’incidents.</p>
-    <p>Rigoureuse, curieuse et impliquée, je souhaite contribuer à des projets data à fort impact.</p>
-</div>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hello !<br>Je suis <span>Amel Berrazouane</span></h1>
+      <p>Étudiante en Master 2 MIAGE à l’Université Paris Nanterre, parcours Systèmes d’Information Fiables et Intelligence des Données. Grâce à mon alternance, j’ai conçu et mis en production un modèle de machine learning pour l’assignation automatique d’incidents. Rigoureuse, curieuse et impliquée, je souhaite contribuer à des projets data à fort impact.</p>
+      <div class="hero-buttons">
+        <a href="projets.html">Voir mes projets</a>
+        <a href="contact.html">Me contacter</a>
+      </div>
+    </div>
+    <img src="img/moi.png" alt="Photo d'Amel">
+  </section>
 
-<footer>
+  <footer>
     &copy; 2025 Amel Berrazouane
-</footer>
-
+  </footer>
 </body>
 </html>
