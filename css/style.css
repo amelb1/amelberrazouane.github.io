@@ -56,13 +56,32 @@ a:hover {
   text-decoration: underline;
 }
 
+/* =============== LINKEDIN & FOOTER =============== */
 footer {
   background-color: #1c1c1c;
-  color: #ccc;
+  color: white;
   text-align: center;
-  padding: 1em;
+  padding: 1.5em 1em 0.5em;
   font-size: 0.9em;
 }
+
+footer .socials {
+  margin-bottom: 1em;
+}
+
+footer .socials a {
+  color: #ff4b5c;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+footer .socials a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
 
 /* =============== PROJECT CARD =============== */
 .project-card {
