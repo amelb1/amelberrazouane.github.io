@@ -17,7 +17,8 @@
     <h2> Projets par thématique</h2>
 
     <h3>Machine Learning / IA</h3>
-    <section>
+      <div class="project-card">
+        <div class="card-header">
         <h4> Mémoire M2 – Détection de fraude</h4>
         <p><strong>Période :</strong> Janv 2025 - Mai 2025<br>
         <strong>Contexte :</strong> Mémoire de fin de Master 2<br>
@@ -31,265 +32,309 @@
             <li>Comparaison des pipelines et validation selon précision, rappel, F1-score</li>
         </ul>
         </p>
-    </section>
-      <h4>Projet Data Science – Classification sur données d’obésité</h4>
-    <p>
-       <p><strong>Période :</strong> mars 2024<br>
-        <strong>Contexte </strong> : Projet universitaire individuel (M2 MIAGE)<br>
-        <strong>>Objectif </strong : Appliquer des modèles de machine learning pour prédire les niveaux d’obésité à partir de données socio-comportementales<br>
-       <strong>Technos : </strong>Python, scikit-learn, pandas, matplotlib<br>
-       <strong>  Ce que j’ai fait</strong> :<br>
-         <ul> 
-             <li> Prétraitement : nettoyage, encodage, normalisation des données</li>
-             <li> Analyse exploratoire (corrélations, distribution, visualisations)</li>
-             <li> Entraînement et évaluation de plusieurs modèles (KNN, SVM, arbre de décision…)</li>
-             <li> Comparaison des performances avec métriques (accuracy, confusion matrix)li>
-      
-         </ul> 
-        
-    <section>
-        
-        <h4> Mémoire M1 – Utilisation des méthodes d'ensemble pour la détéction de fraude à l'assurance</h4>
-        <p><strong>Période :</strong> Janv 2024 - Mai 2024<br>
-        <strong>Contexte :</strong> Mémoire de fin de Master 2<br>
-        <strong>Objectif :</strong> Comparer plusieurs méthodes d'ensemble pour améliorer la détection des fraudes à l’assurance, et identifier la plus performante<br>
-        <strong>Technos :</strong>Python · Random Forest · Gradient Boosting · XGBoost · Kaggle · Scikit-learn Python, Kaggle, Scikit-learn<br>
-        <strong>Tâches :</strong>
-        <ul>
-            <li> Revue d’articles scientifiques (méthode SLR) et analyse de 3 modèles : RF, GB, XGBoost</li>
-            <li> Prétraitement des données (nettoyage, encodage, détection de valeurs aberrantes)</li>
-            <li> Entraînement et comparaison des performances des modèles sur un dataset Kaggle (40 features)</li>
-            <li> Évaluation avec des métriques de classification (F1, précision, recall) </li>
-            <li> Conclusion : XGBoost est le modèle le plus performant sur ce jeu de données</li>
-        </ul>
-        </p>
-    </section>
-    <section>
-        <h4>Foot Score – Prédiction de scores de football</h4>
-        <p><strong>Période :</strong> Fév 2025 - Mai 2025<br>
-        <strong>Contexte :</strong>Projet en trinome (M2 MIAGE – PSID), autour de l’analyse et de la prédiction des scores de football à partir de données réelles<br>
-        <strong>Objectif :</strong>Créer une application web permettant de visualiser les données footballistiques et de prédire les scores futurs à l’aide de modèles de machine learnings<br>
-        <strong>Technos :</strong> Python (Pandas, Matplotlib, Scikit-learn), Flask, ReactJS, GitHub Actions, SonarQube<br>
-        <strong>Tâches :</strong>
-        <ul>
-            <li> Analyse exploratoire et visualisations (corrélations, distributions, ACP, profils par poste)</li>
-            <li>Nettoyage et enrichissement des données (transformations, agrégations, typage)</li>
-            <li>Mise en place d’un tableau de bord interactif avec statistiques par pays, joueurs, résultats</li>
-            <li>Collaboration en méthode agile (Scrum, GitHub Projects)</li>
-            <li>Déploiement continu (CI/CD avec GitHub Actions)</li>
-            <li>Préparation d’un module de régression supervisée pour prédire les scores en fonction des équipes (à domicile / à l’extérieur)</li>
-        </ul>
-        </p>
-    </section>
+     </div>
+    </div>
 
-    <h3>Data Analytics / BI</h3>
+    <div class="project-card">
+        <div class="card-header">
+              <h4>Projet Data Science – Classification sur données d’obésité</h4>
+            <p>
+               <p><strong>Période :</strong> mars 2024<br>
+                <strong>Contexte </strong> : Projet universitaire individuel (M2 MIAGE)<br>
+                <strong>>Objectif </strong : Appliquer des modèles de machine learning pour prédire les niveaux d’obésité à partir de données socio-comportementales<br>
+               <strong>Technos : </strong>Python, scikit-learn, pandas, matplotlib<br>
+               <strong>  Ce que j’ai fait</strong> :<br>
+                 <ul> 
+                     <li> Prétraitement : nettoyage, encodage, normalisation des données</li>
+                     <li> Analyse exploratoire (corrélations, distribution, visualisations)</li>
+                     <li> Entraînement et évaluation de plusieurs modèles (KNN, SVM, arbre de décision…)</li>
+                     <li> Comparaison des performances avec métriques (accuracy, confusion matrix)li>
+                 </ul> 
+           </div>
+        </div>
     <section>
-        <h4> Projet Data Analytics & BI – Analyse des contenus Netflix</h4>
-        <p><strong>Période :</strong> Janv 2025<br>
-        <strong>Contexte :</strong>Projet individuel (M2 MIAGE) réalisé avec Snowflake & Power BI <br>
-        <strong>Objectif :</strong> Analyser un dataset de contenus Netflix (films & séries) pour en extraire des insights sur les genres, pays producteurs, réalisateurs, tendances par année, etc.<br>
-        <strong>Technos :</strong> Snowflake · SQL · Power BI · Power Query · Datawarehouse en étoile<br>
-        <strong>Tâches :</strong>
-        <ul>
-            <li> Sélection d’un jeu de données Netflix (13 colonnes – type, pays, genre, durée, etc.)</li>
-            <li> Création d’un entrepôt de données avec modélisation en étoile (dimensions : pays, titre, genre, réalisateur...)</li>
-            <li> Chargement et transformation des données via SQL (insertion, jointures, nettoyage)</li>
-            <li> Connexion de Snowflake à Power BI </li>
-            <li> Construction de plusieurs dashboards visuels (répartitions des genres, nombre de titres par pays,évolution des ajouts Netflix par année)</li>
-        </ul>
-        </p>
-    </section>
+        
+        <div class="project-card">
+            <div class="card-header">
+                <h4> Mémoire M1 – Utilisation des méthodes d'ensemble pour la détéction de fraude à l'assurance</h4>
+                <p><strong>Période :</strong> Janv 2024 - Mai 2024<br>
+                <strong>Contexte :</strong> Mémoire de fin de Master 2<br>
+                <strong>Objectif :</strong> Comparer plusieurs méthodes d'ensemble pour améliorer la détection des fraudes à l’assurance, et identifier la plus performante<br>
+                <strong>Technos :</strong>Python · Random Forest · Gradient Boosting · XGBoost · Kaggle · Scikit-learn Python, Kaggle, Scikit-learn<br>
+                <strong>Tâches :</strong>
+                <ul>
+                    <li> Revue d’articles scientifiques (méthode SLR) et analyse de 3 modèles : RF, GB, XGBoost</li>
+                    <li> Prétraitement des données (nettoyage, encodage, détection de valeurs aberrantes)</li>
+                    <li> Entraînement et comparaison des performances des modèles sur un dataset Kaggle (40 features)</li>
+                    <li> Évaluation avec des métriques de classification (F1, précision, recall) </li>
+                    <li> Conclusion : XGBoost est le modèle le plus performant sur ce jeu de données</li>
+                </ul>
+                </p>
+             </div>
+         </div>
+        
+    <div class="project-card">
+            <div class="card-header">
+                <h4>Foot Score – Prédiction de scores de football</h4>
+                <p><strong>Période :</strong> Fév 2025 - Mai 2025<br>
+                <strong>Contexte :</strong>Projet en trinome (M2 MIAGE – PSID), autour de l’analyse et de la prédiction des scores de football à partir de données réelles<br>
+                <strong>Objectif :</strong>Créer une application web permettant de visualiser les données footballistiques et de prédire les scores futurs à l’aide de modèles de machine learnings<br>
+                <strong>Technos :</strong> Python (Pandas, Matplotlib, Scikit-learn), Flask, ReactJS, GitHub Actions, SonarQube<br>
+                <strong>Tâches :</strong>
+                <ul>
+                    <li> Analyse exploratoire et visualisations (corrélations, distributions, ACP, profils par poste)</li>
+                    <li>Nettoyage et enrichissement des données (transformations, agrégations, typage)</li>
+                    <li>Mise en place d’un tableau de bord interactif avec statistiques par pays, joueurs, résultats</li>
+                    <li>Collaboration en méthode agile (Scrum, GitHub Projects)</li>
+                    <li>Déploiement continu (CI/CD avec GitHub Actions)</li>
+                    <li>Préparation d’un module de régression supervisée pour prédire les scores en fonction des équipes (à domicile / à l’extérieur)</li>
+                </ul>
+                </p>
+               </div>
+         </div>
+        
+    <div class="project-card">
+            <div class="card-header">
+                <h3>Data Analytics / BI</h3>
+                <section>
+                    <h4> Projet Data Analytics & BI – Analyse des contenus Netflix</h4>
+                    <p><strong>Période :</strong> Janv 2025<br>
+                    <strong>Contexte :</strong>Projet individuel (M2 MIAGE) réalisé avec Snowflake & Power BI <br>
+                    <strong>Objectif :</strong> Analyser un dataset de contenus Netflix (films & séries) pour en extraire des insights sur les genres, pays producteurs, réalisateurs, tendances par année, etc.<br>
+                    <strong>Technos :</strong> Snowflake · SQL · Power BI · Power Query · Datawarehouse en étoile<br>
+                    <strong>Tâches :</strong>
+                    <ul>
+                        <li> Sélection d’un jeu de données Netflix (13 colonnes – type, pays, genre, durée, etc.)</li>
+                        <li> Création d’un entrepôt de données avec modélisation en étoile (dimensions : pays, titre, genre, réalisateur...)</li>
+                        <li> Chargement et transformation des données via SQL (insertion, jointures, nettoyage)</li>
+                        <li> Connexion de Snowflake à Power BI </li>
+                        <li> Construction de plusieurs dashboards visuels (répartitions des genres, nombre de titres par pays,évolution des ajouts Netflix par année)</li>
+                    </ul>
+                    </p>
+                </div>
+         </div>
 
-    <section>
-        <h4>Projet Data Mining- Analyse Nutritionnelle des Produits de Fast-Food M2 MIAGE</h4>
-        <p><strong>Période :</strong> Oct 2024<br>
-        <strong>Contexte :</strong>Projet individuel (M2 MIAGE) réalisé en RMarkdown<br>
-        <strong>Objectif :</strong>Étudier si l’on peut respecter les recommandations nutritionnelles journalières en mangeant uniquement au fast-food<br>
-        <strong>Technos :</strong>R · tidyverse · ggplot2 · PCA · visualisation de données<br>
-        <strong>Tâches :</strong>
-        <ul>
-            <li> Nettoyage et Analyse exploratoire d’un jeu de données combinant des menus de fast-foods (McDonald's, Burger King, Wendy’s)</li>
-            <li>Réalisation d’une ACP pour identifier les axes nutritionnels dominants</li>
-            <li>Création de graphiques de corrélation, comparaisons par type de produit et par restaurant </li>
-            <li>Évaluation de deux scénarios alimentaires (menu modéré vs menu classique)</li>
-            <li>Interprétation des résultats par rapport aux recommandations nutritionnelles (calories, sucre, sel, protéines…)</li>
-        </ul>
-        </p>
-    </section>
+        <div class="project-card">
+            <div class="card-header">
+                <h4>Projet Data Mining- Analyse Nutritionnelle des Produits de Fast-Food M2 MIAGE</h4>
+                <p><strong>Période :</strong> Oct 2024<br>
+                <strong>Contexte :</strong>Projet individuel (M2 MIAGE) réalisé en RMarkdown<br>
+                <strong>Objectif :</strong>Étudier si l’on peut respecter les recommandations nutritionnelles journalières en mangeant uniquement au fast-food<br>
+                <strong>Technos :</strong>R · tidyverse · ggplot2 · PCA · visualisation de données<br>
+                <strong>Tâches :</strong>
+                <ul>
+                    <li> Nettoyage et Analyse exploratoire d’un jeu de données combinant des menus de fast-foods (McDonald's, Burger King, Wendy’s)</li>
+                    <li>Réalisation d’une ACP pour identifier les axes nutritionnels dominants</li>
+                    <li>Création de graphiques de corrélation, comparaisons par type de produit et par restaurant </li>
+                    <li>Évaluation de deux scénarios alimentaires (menu modéré vs menu classique)</li>
+                    <li>Interprétation des résultats par rapport aux recommandations nutritionnelles (calories, sucre, sel, protéines…)</li>
+                </ul>
+                </p>
+              </div>
+         </div>
 
     <h3>Dév / DevOps / Fullstack</h3>
-    <section>
-        <h4> SocSport – Application sociale sportive</h4>
-        <p><strong>Période :</strong> Sept 2023 - Mai 2024<br>
-        <strong>Contexte: </strong> Projet d’équipe (M2 MIAGE – DevOps 2)<br>
-        <strong>Technos :</strong> React JS · Flask · MySQL · Docker · GitHub Actions · SonarCloud · CodeClimate · Foursquare · OpenWeatherMap<br>
-        <strong>Tâches :</strong>
-        <ul>
-            <li> Modélisation du backend (Base de données, API Flask avec méthodes CRUD)</li>
-            <li> Intégration de la géolocalisation (affichage de terrains autour de l'utilisateur)/li>
-            <li> Développement de la logique de réservation, score utilisateur et notifications personnalisées/li>
-            <li> Intégration d’APIs externes (OpenWeatherMap, Foursquare, chatbot Ollama)</li>
-            <li> Conteneurisation complète du projet (Frontend, Backend, Database avec Docker)</li>
-            <li> Documentation, qualité de code (CI/CD, AsciiDoc, badges) et gestion agile (Jira + réunions hebdo)</li>
+      <div class="project-card">
+            <div class="card-header">
+                <h4> SocSport – Application sociale sportive</h4>
+                <p><strong>Période :</strong> Sept 2023 - Mai 2024<br>
+                <strong>Contexte: </strong> Projet d’équipe (M2 MIAGE – DevOps 2)<br>
+                <strong>Technos :</strong> React JS · Flask · MySQL · Docker · GitHub Actions · SonarCloud · CodeClimate · Foursquare · OpenWeatherMap<br>
+                <strong>Tâches :</strong>
+                <ul>
+                    <li> Modélisation du backend (Base de données, API Flask avec méthodes CRUD)</li>
+                    <li> Intégration de la géolocalisation (affichage de terrains autour de l'utilisateur)/li>
+                    <li> Développement de la logique de réservation, score utilisateur et notifications personnalisées/li>
+                    <li> Intégration d’APIs externes (OpenWeatherMap, Foursquare, chatbot Ollama)</li>
+                    <li> Conteneurisation complète du projet (Frontend, Backend, Database avec Docker)</li>
+                    <li> Documentation, qualité de code (CI/CD, AsciiDoc, badges) et gestion agile (Jira + réunions hebdo)</li>
+        
+                </ul>
+                </p>
+              </div>
+         </div>
 
-        </ul>
-        </p>
-    </section>
-
-    <section>
-        <h4> Application Web réalisé permettant la gestion de la Journée Nationale de la Miage L3 MIAGE J</h4>
-        <p><strong>Période :</strong> Nov 2022 - Janv 2023<br>
-        <strong> Contexte:</strong>Projet en trinome – Développement full-stack avec Symfony (PHP) 
-        <strong>Objectif: </strong> Développement d’une application de gestion d’un événement national (inscriptions, activités, hébergements, vidéos, partenariats) avec interface admin<br>
-        <strong>Technos: </strong> Symfony, PHP, HTML/CSS/JS, SQL, MySQL, Git, Apache, MailTrap<br>
-        <strong>Tâches:</strong>
-        <ul>
-            <li>Conception d’une base de données relationnelle complète (modèle conceptuel + physique)</li>
-            <li>Création de diagrammes UML et Use Case pour modéliser les fonctionnalités (inscriptions, réservations, vidéos, partenariats)</li>
-            <li>Développement des interfaces web responsives (front-end HTML/CSS/JS + back-end Symfony)</li>
-            <li>Implémentation de la programmation orientée objet en PHP</li>
-            <li>Gestion de la sécurité, des rôles utilisateurs et de l’authentification</li>
-            <li>Intégration d’un système d’envoi d’e-mails via MailTrap</li>
-            <li>Réalisation de tests unitaires pour valider les principales fonctionnalités</li>
-            <li>Utilisation de Git pour la gestion de version et coordination en équipe</li>
-        </ul>
-        </p>
-    </section>
+     <div class="project-card">
+            <div class="card-header">
+                <h4> Application Web réalisé permettant la gestion de la Journée Nationale de la Miage L3 MIAGE J</h4>
+                <p><strong>Période :</strong> Nov 2022 - Janv 2023<br>
+                <strong> Contexte:</strong>Projet en trinome – Développement full-stack avec Symfony (PHP) 
+                <strong>Objectif: </strong> Développement d’une application de gestion d’un événement national (inscriptions, activités, hébergements, vidéos, partenariats) avec interface admin<br>
+                <strong>Technos: </strong> Symfony, PHP, HTML/CSS/JS, SQL, MySQL, Git, Apache, MailTrap<br>
+                <strong>Tâches:</strong>
+                <ul>
+                    <li>Conception d’une base de données relationnelle complète (modèle conceptuel + physique)</li>
+                    <li>Création de diagrammes UML et Use Case pour modéliser les fonctionnalités (inscriptions, réservations, vidéos, partenariats)</li>
+                    <li>Développement des interfaces web responsives (front-end HTML/CSS/JS + back-end Symfony)</li>
+                    <li>Implémentation de la programmation orientée objet en PHP</li>
+                    <li>Gestion de la sécurité, des rôles utilisateurs et de l’authentification</li>
+                    <li>Intégration d’un système d’envoi d’e-mails via MailTrap</li>
+                    <li>Réalisation de tests unitaires pour valider les principales fonctionnalités</li>
+                    <li>Utilisation de Git pour la gestion de version et coordination en équipe</li>
+                </ul>
+                </p>
+              </div>
+         </div>
 
     <h3>Algo / Optimisation</h3>
-    <section>
-        <h4>Projet Optimisation combinatoire-Problème du sac à dos à 2 sacs M1 MIAGE</h4>
-        <p><strong>Période :</strong> Mai 2024<br>
-        <strong>Contexte :</strong> Projet en trinôme (M1 MIAGE), autour d’un problème d’optimisation combinatoire avec contraintes
-        <strong>Objectif :</strong> Développer et tester plusieurs méthodes (exactes, heuristiques, relaxées) pour résoudre une variante du problème du sac à dos avec 2 sacs (remplir 2 sacs avec un maximum d’objets utiles, sans dépasser leur capacité)
-        <strong>Technos :</strong> Python, NumPy, CSV, NetworkX, matplotlib<br>
-       <strong>Tâches:</strong>
-        <ul>
-            <li> Codé les algorithmes DFS, BFS, relaxation, heuristique gloutonne</li>
-            <li> Implémenté une logique de test massif (1000 tests/instance) et stockage automatique des résultats CSV</li>
-            <li> Créé des fonctions d’analyse statistiques (écart-type, variances, ratios solution/optimum)</li>
-            <li> Étudié et comparé les performances (temps d’exécution, qualité des solutions) sur des instances jusqu’à 100 000 objets</li>
-            <li> Proposé une adaptation réaliste des contraintes (sac 1 = moitié de poids total, sac 2 = quart) pour plus de robustesse</li>
-      
-        </ul>
-        </p>
-    </section>
-<section>
-    <h4>Optimisation de parcours d’événements en Île-de-France (TSP & Graphes) L3 MIAGE</h4>
-    <p>
-        <p><strong>Période :</strong> mars 2023 - avr. 2023<br>
-         <strong>Contexte :</strong> Projet universitaire – Analyse de données géographiques & modélisation de graphes<br>
-       <strong>Objectif :</strong> Créer une application interactive qui calcule le chemin optimal pour assister à plusieurs événements, via le problème du voyageur de commerce (TSP)<br>
-          <strong>Technos :</strong>  Python, NetworkX, Geopy, Folium, Tkinter, Pandas, OpenData, Matplotlib<br>
-        <strong>Ce que j’ai fait : </strong>
-        <ul>
-            <li>Traitement et filtrage d’un jeu de données OpenData (événements IDF – 338 lignes)</li>
-            <li>Modélisation d’un graphe avec événements en sommets, distances géographiques en poids d’arêtes</li>
-            <li>Résolution du TSP avec l’algorithme de Christofides (traveling_salesman_problem de NetworkX)</li>
-            <li>Visualisation du chemin optimal sur graphe (Matplotlib) + carte interactive (Folium)</li>
-            <li>Interface utilisateur (Tkinter) pour choisir les départements et visualiser les résultats</li>
-        </ul>
-    </p>
-</section>
+      <div class="project-card">
+            <div class="card-header">
+                <h4>Projet Optimisation combinatoire-Problème du sac à dos à 2 sacs M1 MIAGE</h4>
+                <p><strong>Période :</strong> Mai 2024<br>
+                <strong>Contexte :</strong> Projet en trinôme (M1 MIAGE), autour d’un problème d’optimisation combinatoire avec contraintes
+                <strong>Objectif :</strong> Développer et tester plusieurs méthodes (exactes, heuristiques, relaxées) pour résoudre une variante du problème du sac à dos avec 2 sacs (remplir 2 sacs avec un maximum d’objets utiles, sans dépasser leur capacité)
+                <strong>Technos :</strong> Python, NumPy, CSV, NetworkX, matplotlib<br>
+               <strong>Tâches:</strong>
+                <ul>
+                    <li> Codé les algorithmes DFS, BFS, relaxation, heuristique gloutonne</li>
+                    <li> Implémenté une logique de test massif (1000 tests/instance) et stockage automatique des résultats CSV</li>
+                    <li> Créé des fonctions d’analyse statistiques (écart-type, variances, ratios solution/optimum)</li>
+                    <li> Étudié et comparé les performances (temps d’exécution, qualité des solutions) sur des instances jusqu’à 100 000 objets</li>
+                    <li> Proposé une adaptation réaliste des contraintes (sac 1 = moitié de poids total, sac 2 = quart) pour plus de robustesse</li>
+              
+                </ul>
+                </p>
+                 </div>
+         </div>
+        
+   <div class="project-card">
+            <div class="card-header">
+                <h4>Optimisation de parcours d’événements en Île-de-France (TSP & Graphes) L3 MIAGE</h4>
+                <p>
+                    <p><strong>Période :</strong> mars 2023 - avr. 2023<br>
+                     <strong>Contexte :</strong> Projet universitaire – Analyse de données géographiques & modélisation de graphes<br>
+                   <strong>Objectif :</strong> Créer une application interactive qui calcule le chemin optimal pour assister à plusieurs événements, via le problème du voyageur de commerce (TSP)<br>
+                      <strong>Technos :</strong>  Python, NetworkX, Geopy, Folium, Tkinter, Pandas, OpenData, Matplotlib<br>
+                    <strong>Ce que j’ai fait : </strong>
+                    <ul>
+                        <li>Traitement et filtrage d’un jeu de données OpenData (événements IDF – 338 lignes)</li>
+                        <li>Modélisation d’un graphe avec événements en sommets, distances géographiques en poids d’arêtes</li>
+                        <li>Résolution du TSP avec l’algorithme de Christofides (traveling_salesman_problem de NetworkX)</li>
+                        <li>Visualisation du chemin optimal sur graphe (Matplotlib) + carte interactive (Folium)</li>
+                        <li>Interface utilisateur (Tkinter) pour choisir les départements et visualiser les résultats</li>
+                    </ul>
+                </p>
+                </div>
+         </div>
 
-<section>
-    <h4>Algorithme génétique – Problème du sac à dos L3 MIAGE</h4>
-    <p>
-       <p><strong>Période :</strong> Déc 2022 - janv. 2023<br>
-        <strong>Contexte :</strong> Projet universitaire – Programmation algorithmique en C<br>
-        <strong>Objectif :</strong> Résoudre le problème du sac à dos via un algorithme génétique (optimisation par sélection et reproduction)<br>
-         <strong>Technos :</strong>  C (stdlib.h, stdio.h, time.h), structures, console, affichage personnalisé<br>
-         <strong>Ce que j’ai fait : </strong>
-        <ul>
-            <li>Modélisation des structures : individus, objets, sac à dos</li>
-            <li>Génération d’une population initiale (100 individus) et sélection des meilleurs selon leur valeur/poids</li>
-            <li>Croisement & mutation des gènes pour créer une nouvelle génération optimisée</li>
-            <li>Affichage console de l'évolution du score de génération en génération</li>
-            <li>Observation de la convergence naturelle vers le score maximal après plusieurs itérations</li>
-        </ul>
-    </p>
-</section>
+   <div class="project-card">
+        <div class="card-header">
+            <h4>Algorithme génétique – Problème du sac à dos L3 MIAGE</h4>
+            <p>
+               <p><strong>Période :</strong> Déc 2022 - janv. 2023<br>
+                <strong>Contexte :</strong> Projet universitaire – Programmation algorithmique en C<br>
+                <strong>Objectif :</strong> Résoudre le problème du sac à dos via un algorithme génétique (optimisation par sélection et reproduction)<br>
+                 <strong>Technos :</strong>  C (stdlib.h, stdio.h, time.h), structures, console, affichage personnalisé<br>
+                 <strong>Ce que j’ai fait : </strong>
+                <ul>
+                    <li>Modélisation des structures : individus, objets, sac à dos</li>
+                    <li>Génération d’une population initiale (100 individus) et sélection des meilleurs selon leur valeur/poids</li>
+                    <li>Croisement & mutation des gènes pour créer une nouvelle génération optimisée</li>
+                    <li>Affichage console de l'évolution du score de génération en génération</li>
+                    <li>Observation de la convergence naturelle vers le score maximal après plusieurs itérations</li>
+                </ul>
+            </p>
+            </div>
+         </div>
 
-<section>
-    <h4>Etude des algorithmes de tri de tableau et optimisation L3 MIAGE</h4>
-    <p>
-       <p><strong>Période :</strong> oct. 2022 - déc. 2022<br>
-       <strong>Contexte :</strong> Projet universitaire – Implémentation et analyse de performances<br>
-        <strong>Objectif :</strong>: Étudier, implémenter et comparer plusieurs algorithmes de tri afin d’identifier le plus performant selon la taille du tableau et le contexte d’exécution<br>
-        <strong>Technos :</strong>  C (stdlib.h, stdio.h), analyse de complexité, console<br>
-       <strong>Ce que j’ai fait : </strong>
-        <ul>
-            <li>Implémentation de 6 algorithmes : Bubble Sort (opt/non-opt), Insertion Sort, Selection Sort, Counting Sort, Merge Sort, Comb Sort</li>
-            <li>Comparaison des temps d’exécution sur différents volumes de données (1000 à 3000 éléments)</li>
-            <li>Visualisation de la performance moyenne et évaluation des cas d’usage optimaux selon le type de tri</li>
-            <li>Conclusion : Comb Sort = plus rapide pour petits volumes, Merge Sort = stable et performant sur grandes tailles, Selection Sort = le moins efficace</li>
-            <li>Cette expérience a permis de démontrer qu’un algorithme peut s'avérer plus rapide selon l'instance trié, selon le compilateur, selon la taille du tableau. J'ai pu également étudier la complexité et plusieurs stratégies de comparaison</li>
-        </ul>
-    </p>
-</section>
 
-    <section>
-        <h4> Rubik’s Cube</h4>
-        <p><strong>Période :</strong> Nov - Déc 2021<br>
-         <strong>Contexte :</strong> Projet en binome (L2 MIASHS)
-        <strong>Objectif :</strong> Développer un programme en C permettant de simuler et résoudre un Rubik’s Cube selon des logiques algorithmiques<br>
-        <strong>Technos :</strong> Langage C, SDL </p>
-        <strong>Tâches:</strong>
-        <ul>
-            <li> Approche algorithmique de la résolution</li>
-            <li> Implémentation de rotations par transformation matricielle</li>
-            <li> Sensibilisation à la manipulation de structures complexes</li>
-            <li> Travail sur la visualisation des états d’un cube</li>
+   <div class="project-card">
+        <div class="card-header">
+            <h4>Etude des algorithmes de tri de tableau et optimisation L3 MIAGE</h4>
+            <p>
+               <p><strong>Période :</strong> oct. 2022 - déc. 2022<br>
+               <strong>Contexte :</strong> Projet universitaire – Implémentation et analyse de performances<br>
+                <strong>Objectif :</strong>: Étudier, implémenter et comparer plusieurs algorithmes de tri afin d’identifier le plus performant selon la taille du tableau et le contexte d’exécution<br>
+                <strong>Technos :</strong>  C (stdlib.h, stdio.h), analyse de complexité, console<br>
+               <strong>Ce que j’ai fait : </strong>
+                <ul>
+                    <li>Implémentation de 6 algorithmes : Bubble Sort (opt/non-opt), Insertion Sort, Selection Sort, Counting Sort, Merge Sort, Comb Sort</li>
+                    <li>Comparaison des temps d’exécution sur différents volumes de données (1000 à 3000 éléments)</li>
+                    <li>Visualisation de la performance moyenne et évaluation des cas d’usage optimaux selon le type de tri</li>
+                    <li>Conclusion : Comb Sort = plus rapide pour petits volumes, Merge Sort = stable et performant sur grandes tailles, Selection Sort = le moins efficace</li>
+                    <li>Cette expérience a permis de démontrer qu’un algorithme peut s'avérer plus rapide selon l'instance trié, selon le compilateur, selon la taille du tableau. J'ai pu également étudier la complexité et plusieurs stratégies de comparaison</li>
+                </ul>
+            </p>
+             </div>
+        </div>
 
-    </section>
+      <div class="project-card">
+            <div class="card-header">
+                <h4> Rubik’s Cube</h4>
+                <p><strong>Période :</strong> Nov - Déc 2021<br>
+                 <strong>Contexte :</strong> Projet en binome (L2 MIASHS)
+                <strong>Objectif :</strong> Développer un programme en C permettant de simuler et résoudre un Rubik’s Cube selon des logiques algorithmiques<br>
+                <strong>Technos :</strong> Langage C, SDL </p>
+                <strong>Tâches:</strong>
+                <ul>
+                    <li> Approche algorithmique de la résolution</li>
+                    <li> Implémentation de rotations par transformation matricielle</li>
+                    <li> Sensibilisation à la manipulation de structures complexes</li>
+                    <li> Travail sur la visualisation des états d’un cube</li>
+              </div>
+        </div>
 
-    <section>
-        <h4> Démineur – version terminal</h4>
-        <p><strong>Période :</strong> Nov - Déc 2021<br>
-        <strong>Contexte :</strong> Projet individuel (L1 MIASHS)
-        <strong>Objectif :</strong> Recréer le jeu en C avec propagation</p>
-        <strong>Technos :</strong> Langage C </p>
-        <strong>Ce que j'ai appris:</strong>
-        <ul>
-            <li> Gestion de la mémoire et des tableaux</li>
-            <li> Implémentation d’algorithmes de propagation (DFS-like)</li>
-            <li> Interaction utilisateur (entrées clavier / coordonnées)</li>
-            <li> Résilience face aux bugs d’indexation </li>
 
-    </section>
+       <div class="project-card">
+            <div class="card-header">
+                <h4> Démineur – version terminal</h4>
+                <p><strong>Période :</strong> Nov - Déc 2021<br>
+                <strong>Contexte :</strong> Projet individuel (L1 MIASHS)
+                <strong>Objectif :</strong> Recréer le jeu en C avec propagation</p>
+                <strong>Technos :</strong> Langage C </p>
+                <strong>Ce que j'ai appris:</strong>
+                <ul>
+                    <li> Gestion de la mémoire et des tableaux</li>
+                    <li> Implémentation d’algorithmes de propagation (DFS-like)</li>
+                    <li> Interaction utilisateur (entrées clavier / coordonnées)</li>
+                    <li> Résilience face aux bugs d’indexation </li>
+            </div>
+        </div>
 
     <h3>Base de données</h3>
-    <section>
-        <h4>PL/SQL – Gestion d’un système de restaurants </h4>
-        <p><strong>Période :</strong> Mars 2023<br>
-        <strong>Contexte :</strong> Projet individuel (L3 MIASHS parcours MIAGE)
-        <strong>Objectif :</strong> Concevoir une base Oracle pour gérer les données d’un réseau de restaurants</p>
-         <strong>Technos :</strong> PL/SQL, procédures, triggers, exceptions </p>
-        <strong>Ce que j'ai fait:</strong>
-        <ul>
-            <li> Création du schéma relationnel (tables, clés, contraintes)</li>
-            <li> Procédures de mise à jour et de tri (prix, type de cuisine)</li>
-            <li> Fonction de calcul de chiffre d'affaires</li>
-            <li> Triggers pour bloquer ou corriger des données invalides </li>
-            <li> Gestion d’exceptions personnalisées</li>
-    </section>
+     <div class="project-card">
+            <div class="card-header">
+                <h4>PL/SQL – Gestion d’un système de restaurants </h4>
+                <p><strong>Période :</strong> Mars 2023<br>
+                <strong>Contexte :</strong> Projet individuel (L3 MIASHS parcours MIAGE)
+                <strong>Objectif :</strong> Concevoir une base Oracle pour gérer les données d’un réseau de restaurants</p>
+                 <strong>Technos :</strong> PL/SQL, procédures, triggers, exceptions </p>
+                <strong>Ce que j'ai fait:</strong>
+                <ul>
+                    <li> Création du schéma relationnel (tables, clés, contraintes)</li>
+                    <li> Procédures de mise à jour et de tri (prix, type de cuisine)</li>
+                    <li> Fonction de calcul de chiffre d'affaires</li>
+                    <li> Triggers pour bloquer ou corriger des données invalides </li>
+                    <li> Gestion d’exceptions personnalisées</li>
+             </div>
+        </div>
 
-    <section>
-        <h4> BDD spectacles universitaires</h4>
-        <p><strong>Période :</strong> Mars 2022<br>
-        <strong>Contexte :</strong> Projet individuel (L2 MIASHS )
-        <strong>Objectif :</strong> Concevoir une base de données normalisée pour organiser et gérer les spectacles culturels à l’université (associations, membres, lieux, billets, spectacles)/p>
-         <strong>Ce que j'ai fait:</strong>
-        <ul>
-            <li> Choix d’un cas métier réaliste : gestion d’événements culturels dans un environnement universitaire</li>
-            <li> Modélisation des entités et associations avec cardinalités, attributs typés et clés (Membre, Association, Spectacle, Amphi, Billet…)</li>
-            <li> Normalisation complète jusqu’en 3e forme normale (FN3) pour éliminer les dépendances partielles et transitives</li>
-            <li> Création du modèle logique relationnel final incluant tables de jonction (faire_partie_de, etc.)</li>
-            <li> Rédaction des requêtes SQL LDD complètes pour créer les tables et toutes les contraintes d’intégrité (clés primaires, étrangères)</li>
-    </section>
-</div>
+      <div class="project-card">
+            <div class="card-header">
+                <h4> BDD spectacles universitaires</h4>
+                <p><strong>Période :</strong> Mars 2022<br>
+                <strong>Contexte :</strong> Projet individuel (L2 MIASHS )
+                <strong>Objectif :</strong> Concevoir une base de données normalisée pour organiser et gérer les spectacles culturels à l’université (associations, membres, lieux, billets, spectacles)/p>
+                 <strong>Ce que j'ai fait:</strong>
+                <ul>
+                    <li> Choix d’un cas métier réaliste : gestion d’événements culturels dans un environnement universitaire</li>
+                    <li> Modélisation des entités et associations avec cardinalités, attributs typés et clés (Membre, Association, Spectacle, Amphi, Billet…)</li>
+                    <li> Normalisation complète jusqu’en 3e forme normale (FN3) pour éliminer les dépendances partielles et transitives</li>
+                    <li> Création du modèle logique relationnel final incluant tables de jonction (faire_partie_de, etc.)</li>
+                    <li> Rédaction des requêtes SQL LDD complètes pour créer les tables et toutes les contraintes d’intégrité (clés primaires, étrangères)</li>
+               </div>
+        </div>
+
 <footer>
     &copy; 2025 Amel Berrazouane
 </footer>
+<script>
+  function toggleDetails(btn) {
+    const card = btn.closest(".project-card");
+    card.classList.toggle("open");
+    btn.textContent = card.classList.contains("open") ? "−" : "+";
+  }
+</script>
+
 </body>
 </html>
