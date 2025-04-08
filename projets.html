@@ -13,7 +13,7 @@
     <a href="parcours.html">Parcours</a>
     <a href="contact.html">Contact</a>
 </nav>
-<div class="container">
+<!-- <div class="container">
     <h2> Projets par thématique</h2>
 
     <h3>Machine Learning / IA</h3>
@@ -33,7 +33,27 @@
         </ul>
         </p>
      </div>
-    </div>
+    </div> -->
+    <div class="project-card">
+  <div class="card-header" onclick="toggleDetails(this)">
+    <h4>Mémoire M2 – Détection de fraude</h4>
+    <p>
+      <strong>Période :</strong> Janv 2025 - Mai 2025<br>
+      <strong>Objectif :</strong> Tester et optimiser différents pipelines de Machine Learning pour améliorer la détection de fraude en assurance, en combinant méthodes supervisées et non supervisées.
+    </p>
+    <button class="toggle-btn">+</button>
+  </div>
+  <div class="card-body">
+    <ul>
+      <li>Prétraitement avancé (déséquilibre, valeurs manquantes, normalisation, encodage…)</li>
+      <li>Construction de pipelines ML supervisés et non supervisés</li>
+      <li>Analyse de l’interprétabilité des modèles (SHAP, feature importance)</li>
+      <li>Comparaison selon précision, rappel, F1-score</li>
+    </ul>
+    <p><strong>Technos :</strong> Python, Scikit-learn, XGBoost, SHAP, Random Forest, Gradient Boosting</p>
+  </div>
+</div>
+
 
     <div class="project-card">
         <div class="card-header">
@@ -333,6 +353,14 @@
     const card = btn.closest(".project-card");
     card.classList.toggle("open");
     btn.textContent = card.classList.contains("open") ? "−" : "+";
+  }
+</script>
+<script>
+  function toggleDetails(el) {
+    const card = el.closest('.project-card');
+    card.classList.toggle('open');
+    const btn = card.querySelector('.toggle-btn');
+    btn.textContent = card.classList.contains('open') ? '−' : '+';
   }
 </script>
 
