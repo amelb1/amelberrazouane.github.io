@@ -119,4 +119,45 @@ footer {
 .timeline-item:nth-child(2) .timeline-content { border-left: 5px solid #e67e22; }
 .timeline-item:nth-child(3) .timeline-content { border-left: 5px solid #2980b9; }
 .timeline-item:nth-child(4) .timeline-content { border-left: 5px solid #27ae60; }
+.project-card {
+    background: #f2f6fc;
+    border-left: 5px solid #3498db;
+    border-radius: 8px;
+    padding: 1em 1.5em;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-header h3 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.2em;
+}
+
+.toggle-btn {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.card-body {
+    display: none;
+    margin-top: 10px;
+}
+
+.project-card.open .card-body {
+    display: block;
+}
 
