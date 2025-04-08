@@ -121,3 +121,65 @@ nav a:hover {
 }
 </style>
 
+h1, h2, h3, h4 {
+  color: #fff;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.timeline {
+  border-left: 3px solid #ff4b5c;
+  padding-left: 30px;
+  position: relative;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2em;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -13px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ff4b5c;
+  border-radius: 50%;
+  border: 3px solid #1e1e1e;
+}
+
+.timeline-date {
+  color: #ff4b5c;
+  font-weight: bold;
+}
+
+.timeline-content {
+  background-color: rgba(30, 30, 30, 0.95);
+  padding: 1.2em 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  color: #f0f0f0;
+}
+footer {
+  background-color: #1c1c1c;
+  color: #ccc;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+}
+a {
+  color: #ff4b5c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
