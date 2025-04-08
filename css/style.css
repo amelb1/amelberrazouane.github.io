@@ -66,20 +66,31 @@ footer {
 }
 
 footer .socials {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 footer .socials a {
+  display: inline-block;
   color: #ff4b5c;
-  font-weight: bold;
-  text-decoration: none;
-  margin: 0 10px;
-  transition: color 0.3s;
+  margin: 0 15px;
+  font-size: 1.5em;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 footer .socials a:hover {
-  text-decoration: underline;
   color: #ffffff;
+  transform: scale(1.2);
+}
+
+footer .email {
+  margin-top: 0.5em;
+  font-size: 1em;
+  color: #ccc;
+}
+
+footer .email i {
+  margin-right: 8px;
+  color: #ff4b5c;
 }
 
 
