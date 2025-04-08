@@ -1,4 +1,4 @@
-/* ===================== GÉNÉRAL ===================== */
+/* /* ===================== GÉNÉRAL ===================== */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -170,3 +170,123 @@ footer {
     font-size: 1.1em;
   }
 }
+ */
+<style>
+/* =============== GLOBAL =============== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+nav {
+  background-color: #1c1c1c;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2em;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff4b5c;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 2em;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* =============== PROJECT CARD =============== */
+.project-card {
+  background: #1e1e1e;
+  border-left: 6px solid #ff4b5c;
+  border-radius: 12px;
+  padding: 1.5em 2em;
+  margin-bottom: 2em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background-color: #252525;
+}
+
+.card-header {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.card-header h4 {
+  font-size: 1.3em;
+  color: #fff;
+  margin: 0;
+}
+
+.card-header p {
+  margin: 0;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.card-header strong {
+  color: #ff4b5c;
+}
+
+.toggle-btn {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ff4b5c;
+  background: none;
+  border: none;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.card-body {
+  display: none;
+  margin-top: 1em;
+}
+
+.project-card.open .card-body {
+  display: block;
+}
+
+.card-body ul {
+  padding-left: 1.5em;
+  margin: 0;
+  color: #ddd;
+}
+
+.card-body ul li {
+  margin-bottom: 0.6em;
+  list-style-type: disc;
+}
+
+/* =============== RESPONSIVE =============== */
+@media screen and (max-width: 768px) {
+  nav {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container {
+    padding: 2em 1em;
+  }
+  .card-header h4 {
+    font-size: 1.1em;
+  }
+}
+</style>
